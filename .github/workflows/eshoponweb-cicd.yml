@@ -4,11 +4,11 @@ name: eShopOnWeb Build and Test
 on: workflow_dispatch
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-westeurope
-  LOCATION: westeurope
+  RESOURCE-GROUP: rg-eshoponweb-eastus
+  LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: 541641e8-27aa-43be-8f59-00e7eaa8a64f
-  WEBAPP-NAME: devops-webapp-westeurope-228565802
+  WEBAPP-NAME: devops-webapp-eastus-10261237
 
 jobs:
   #Build, test and publish .net web project in repository
